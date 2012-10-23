@@ -1,0 +1,37 @@
+body
+{
+	background:#000000;	
+}
+canvas
+{ 
+
+	background:#ffffff;
+	border: 1px solid black;
+}
+
+.button
+{
+
+	color:#ffffff;
+	background:#000000;
+	display:block;
+	float:left;
+	text-align: center;
+	font-size:40px;
+	padding:21px;
+	border: solid 3px #ffffff;
+	margin:1px;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;	
+}
+.button:active
+{
+	color:#000000;
+	background:#ffffff;
+	border: 3px solid black;
+}
