@@ -1,0 +1,4 @@
+AuthName "Secure Area"
+AuthType Basic
+AuthUserFile /home/jmilst20/public_html/commanderz/.htpasswd
+require valid-user

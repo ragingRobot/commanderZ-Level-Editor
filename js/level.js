@@ -32,6 +32,8 @@ var LevelManager =(function(){
 			level:_level
 		}
 	}
+	
+	
  
 	return {
 		getInstance :function(){

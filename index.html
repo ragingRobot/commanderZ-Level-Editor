@@ -2,13 +2,193 @@
 <link href="css/commanderZ.css"  rel="stylesheet" type="text/css" />
 <body>
 <canvas id="tutorial" ></canvas>
+<!--
 <a ontouchstart="" class="left-button button"> &#9664;</a>
 <a ontouchstart="" class="right-button button"> &#9654; </a>
 <a ontouchstart="" class="square-button button"> &#9632; </a>
 <a ontouchstart="" class="circle-button button"> &#9679; </a>
+-->
+
+<div class="tools-holder">
+	
+	<div class="box">
+	<a class="toggle">Show Tools</a>
+<ul class="tileList tools toggleable">
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</div>
+<div class="tools-below">
+
+
+<div class="box">
+	<a class="toggle">Show Next Level Menu</a>
+<form id="options" class="toggleable" i>
+	
+	<h4>Next Level:</h4>	
+	<input type="text" name="next" id="nextLevel" />
+	<input id="updateLevelLink" type="submit" value="UPDATE" />
+</form>
+</div>
+
+
+<div class="box">
+	<a class="toggle">Show Level Creation Menu</a>
+	<form  class="toggleable" id="createNew" action="createNew.php" method="POST">
+		
+		<h4>Name:</h4>	
+		<input type="text" name="name" />
+		
+		<h4>Template:</h4>	
+		<input type="text" name="template"/>
+		<input type="submit" value="CREATE" />
+		
+	</form>
+</div>
+
+<div class="switch box">
+	<a class="toggle">Show Switches</a>
+<div class="switches toggleable">
+	
+	
+</div>
+
+</div>
+
+<div class="box">
+	<a class="toggle">Show Levels</a>
+
+<div class="levels toggleable">
+	
+</div>
+
+</div>
+
+
+
+<div class="box">
+	<a class="toggle">Show Info</a>
+<div class="toggleable info" >
+	
+	<h4>Mouse:</h4>	
+	X:<span class="x-display"></span><br/>
+	Y:<span class="y-display"></span><br/>
+	Value:<span class="value-display"></span><br/>
+</div>
+</div>
+
+
+<a class="save">save</a>
+</div>
+</div>
 <script src="js/jquery-1.8.2.min.js"></script>
 <script src="js/character.js"></script>
 <script src="js/keyBindings.js"></script>
 <script src="js/level.js"></script>
 <script src="js/engine.js"></script>
+<script src="js/ui.js"></script>
 </body>

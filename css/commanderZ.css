@@ -1,19 +1,22 @@
 body
 {
 	background:#000000;	
+	margin:0px;
+	padding-left:582px;
 }
 canvas
 { 
 
-	background:#ffffff;
+	background:URL(.././img/background1.png) repeat-x;
 	border: 1px solid black;
+	float:left;
+	 margin-right:582px;
 }
 
 .button
 {
 
 	color:#ffffff;
-	background:#000000;
 	display:block;
 	float:left;
 	text-align: center;
@@ -35,3 +38,191 @@ canvas
 	background:#ffffff;
 	border: 3px solid black;
 }
+
+
+.tileList.tools{
+	list-style:none;
+	padding:0px;
+	float:left;
+	width:560px;
+}
+.tileList.tools li
+{
+	float:left;
+	width:40px;
+	height:40px;
+	background:URL(.././img/tilestitle.png?123);
+	border: 1px solid #ffffff;
+}
+
+.tileList.tools li.active
+{
+
+	border: 1px solid #ff0000;
+}
+
+
+
+
+
+.save {
+background-color: #A200C2;
+}
+
+.save, a.save {
+border: 1px solid #777;
+border-color: rgba(0, 0, 0, 0.2);
+border-bottom-color: #333;
+border-bottom-color: rgba(0, 0, 0, 0.4);
+color: white;
+-moz-box-shadow: inset 0 0.08em 0 rgba(255,255,255,0.4), inset 0 0 0.1em rgba(255,255,255,0.9);
+-webkit-box-shadow: inset 0 0.08em 0 rgba(255, 255, 255, 0.4), inset 0 0 0.1em rgba(255, 255, 255, 0.9);
+box-shadow: inset 0 0.08em 0 rgba(255, 255, 255, 0.4), inset 0 0 0.1em rgba(255, 255, 255, 0.9);
+cursor: pointer;
+font: bold 100%/2.1 "Lucida Grande", Tahoma, sans-serif;
+padding: 0 .95em 0 0;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+white-space: nowrap;
+-moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+position: relative;
+-moz-border-radius: .3em;
+-webkit-border-radius: .3em;
+border-radius: .3em;
+}
+
+
+.save::before {
+	content: "";
+	border-right: 0.075em solid rgba(0, 0, 0, 0.1);
+	float: left;
+	font: 120%/1.65 zocial;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0 0.5em 0 0;
+	padding: 0 0.5em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+	-moz-box-shadow: 0.075em 0 0 rgba(255,255,255,0.25);
+	-webkit-box-shadow: 0.075em 0 0 rgba(255, 255, 255, 0.25);
+	box-shadow: 0.075em 0 0 rgba(255, 255, 255, 0.25);
+	-moz-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+a.save{
+	display: inline-block;
+	cursor: pointer;
+	padding: 10px;
+	margin: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 200px;
+	
+}
+
+
+
+
+
+.info{
+	color:#ffffff;
+}
+
+
+
+form {
+	float: left;
+	color: white;
+	clear: left;
+	
+}
+
+.tools-holder{
+	position: fixed;
+	left:0px;
+	top:0px;
+	width: 582px;
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.tools-below{
+	float:left;
+	clear:left;
+	width:100%;
+	text-align: center;
+}
+
+.box{
+	float:left;
+	clear:both;
+	width:100%;
+	background:#6E1D08;
+}
+
+.toggleable{
+	display:none;
+	
+	width:100%;
+	float:left;
+	clear:left;
+}
+.toggleable label, .toggleable h4{
+	color:#ffffff;
+}
+.toggleable.on{
+	display:block;
+}
+.toggle{
+	color:#ffffff;
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	float:left;
+	clear:left;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	background: #FF8400;
+background: -webkit-gradient(linear,left top,left bottom,color-stop(#FF8400,0),color-stop(#F60,1));
+background: -webkit-linear-gradient(top,#FF8400 0%,#F60 100%);
+background: -moz-linear-gradient(top,#FF8400 0%,#F60 100%);
+background: -o-linear-gradient(top,#FF8400 0%,#F60 100%);
+background: linear-gradient(top,#FF8400 0%,#F60 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8400',endColorstr='#ff6600',GradientType=0);
+
+border: 1px solid #FF5A00;
+-webkit-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8) inset,1px 1px 3px rgba(0, 0, 0, 0.2),0px 0px 0px 4px rgba(188, 188, 188, 0.5);
+-moz-box-shadow: 0px 1px 1px rgba(255,255,255,0.8) inset,1px 1px 3px rgba(0,0,0,0.2),0px 0px 0px 4px rgba(188,188,188,0.5);
+box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8) inset,1px 1px 3px rgba(0, 0, 0, 0.2),0px 0px 0px 4px rgba(188, 188, 188, 0.5);
+-webkit-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8) inset,1px 1px 3px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0px 1px 1px rgba(255,255,255,0.8) inset,1px 1px 3px rgba(0,0,0,0.2);
+box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8) inset,1px 1px 3px rgba(0, 0, 0, 0.2);
+
+
+
+
+}
+
+.levels, .levels a{
+	
+	color:#ffffff;
+}
+
+
